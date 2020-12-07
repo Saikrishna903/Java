@@ -5,7 +5,6 @@ import java.util.Scanner;
 class CRUDOperations 
 {
 	Scanner scanner = new Scanner(System.in);
-	Statement statement;
 	ResultSet resultSet;
 	String[] fieldNames;
 	String[] menu;
