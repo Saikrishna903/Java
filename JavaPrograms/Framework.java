@@ -1,4 +1,4 @@
-//Show menu
+//CRUD operations.
 import java.sql.*;
 import java.util.Scanner;
 
