@@ -10,7 +10,6 @@ class CRUDOperations
 	String[] menu;
 	String[] updatableFields;
 	String[] messages;
-
 	iCRUD objiCRUD;
 
 	public CRUDOperations(String className)
@@ -22,7 +21,6 @@ class CRUDOperations
 			menu = objiCRUD.getData("Menu");
 			updatableFields = objiCRUD.getData("UpdatableFields");
 			messages = objiCRUD.getData("Messages");
-
 		}
 		catch(Exception error)
 		{
@@ -161,7 +159,6 @@ class CRUDOperations
 		else
 		{	
 			System.out.println(messages[4]);
-			
 		}
 	}
 
